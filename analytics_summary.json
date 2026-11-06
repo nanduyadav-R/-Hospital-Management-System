@@ -1,0 +1,443 @@
+{
+  "department_workload": {
+    "disclaimer": "OPERATIONAL STATISTICS ONLY: All records are 100% synthetic/de-identified. Outputs represent educational hospital operational analytics and must NOT be interpreted as clinical advice, medical diagnosis, or treatment recommendations.",
+    "total_hospital_visits": 420,
+    "calendar_days_span": 300,
+    "departments": [
+      {
+        "department_id": 1,
+        "department_name": "General Medicine",
+        "total_visits": 127,
+        "unique_patients": 75,
+        "workload_share_pct": 30.24,
+        "visits_per_patient": 1.69,
+        "emergency_visits": 2,
+        "outpatient_visits": 73,
+        "followup_visits": 37,
+        "inpatient_visits": 15,
+        "emergency_share_pct": 1.57,
+        "daily_mean_calendar": 0.42,
+        "daily_std_calendar": 0.67,
+        "active_day_mean": 1.23,
+        "active_day_median": 1.0,
+        "active_day_max": 4
+      },
+      {
+        "department_id": 5,
+        "department_name": "Emergency & Trauma",
+        "total_visits": 71,
+        "unique_patients": 53,
+        "workload_share_pct": 16.9,
+        "visits_per_patient": 1.34,
+        "emergency_visits": 56,
+        "outpatient_visits": 0,
+        "followup_visits": 2,
+        "inpatient_visits": 13,
+        "emergency_share_pct": 78.87,
+        "daily_mean_calendar": 0.24,
+        "daily_std_calendar": 0.48,
+        "active_day_mean": 1.13,
+        "active_day_median": 1.0,
+        "active_day_max": 2
+      },
+      {
+        "department_id": 3,
+        "department_name": "Orthopedics",
+        "total_visits": 63,
+        "unique_patients": 44,
+        "workload_share_pct": 15.0,
+        "visits_per_patient": 1.43,
+        "emergency_visits": 5,
+        "outpatient_visits": 36,
+        "followup_visits": 17,
+        "inpatient_visits": 5,
+        "emergency_share_pct": 7.94,
+        "daily_mean_calendar": 0.21,
+        "daily_std_calendar": 0.47,
+        "active_day_mean": 1.12,
+        "active_day_median": 1.0,
+        "active_day_max": 3
+      },
+      {
+        "department_id": 2,
+        "department_name": "Cardiology",
+        "total_visits": 62,
+        "unique_patients": 45,
+        "workload_share_pct": 14.76,
+        "visits_per_patient": 1.38,
+        "emergency_visits": 3,
+        "outpatient_visits": 42,
+        "followup_visits": 12,
+        "inpatient_visits": 5,
+        "emergency_share_pct": 4.84,
+        "daily_mean_calendar": 0.21,
+        "daily_std_calendar": 0.47,
+        "active_day_mean": 1.15,
+        "active_day_median": 1.0,
+        "active_day_max": 2
+      },
+      {
+        "department_id": 4,
+        "department_name": "Pediatrics",
+        "total_visits": 41,
+        "unique_patients": 16,
+        "workload_share_pct": 9.76,
+        "visits_per_patient": 2.56,
+        "emergency_visits": 1,
+        "outpatient_visits": 25,
+        "followup_visits": 11,
+        "inpatient_visits": 4,
+        "emergency_share_pct": 2.44,
+        "daily_mean_calendar": 0.14,
+        "daily_std_calendar": 0.36,
+        "active_day_mean": 1.05,
+        "active_day_median": 1.0,
+        "active_day_max": 2
+      },
+      {
+        "department_id": 6,
+        "department_name": "Neurology",
+        "total_visits": 31,
+        "unique_patients": 26,
+        "workload_share_pct": 7.38,
+        "visits_per_patient": 1.19,
+        "emergency_visits": 1,
+        "outpatient_visits": 19,
+        "followup_visits": 10,
+        "inpatient_visits": 1,
+        "emergency_share_pct": 3.23,
+        "daily_mean_calendar": 0.1,
+        "daily_std_calendar": 0.32,
+        "active_day_mean": 1.03,
+        "active_day_median": 1.0,
+        "active_day_max": 2
+      },
+      {
+        "department_id": 7,
+        "department_name": "Dermatology",
+        "total_visits": 25,
+        "unique_patients": 21,
+        "workload_share_pct": 5.95,
+        "visits_per_patient": 1.19,
+        "emergency_visits": 3,
+        "outpatient_visits": 11,
+        "followup_visits": 8,
+        "inpatient_visits": 3,
+        "emergency_share_pct": 12.0,
+        "daily_mean_calendar": 0.08,
+        "daily_std_calendar": 0.31,
+        "active_day_mean": 1.14,
+        "active_day_median": 1.0,
+        "active_day_max": 2
+      }
+    ],
+    "numpy_hospital_summary": {
+      "mean_visits_per_department": 60.0,
+      "median_visits_per_department": 62.0,
+      "std_visits_per_department": 31.74,
+      "min_department_visits": 25,
+      "max_department_visits": 127,
+      "iqr_department_visits": 31.0
+    }
+  },
+  "visit_trends": {
+    "disclaimer": "OPERATIONAL STATISTICS ONLY: All records are 100% synthetic/de-identified. Outputs represent educational hospital operational analytics and must NOT be interpreted as clinical advice, medical diagnosis, or treatment recommendations.",
+    "monthly_trends": [
+      {
+        "year_month": "2026-01",
+        "total_visits": 36,
+        "unique_patients": 31,
+        "emergency_visits": 10,
+        "outpatient_visits": 13,
+        "followup_visits": 10,
+        "inpatient_visits": 3,
+        "mom_growth_pct": null,
+        "rolling_3m_avg": 36.0
+      },
+      {
+        "year_month": "2026-02",
+        "total_visits": 34,
+        "unique_patients": 30,
+        "emergency_visits": 8,
+        "outpatient_visits": 16,
+        "followup_visits": 5,
+        "inpatient_visits": 5,
+        "mom_growth_pct": -5.56,
+        "rolling_3m_avg": 35.0
+      },
+      {
+        "year_month": "2026-03",
+        "total_visits": 38,
+        "unique_patients": 34,
+        "emergency_visits": 7,
+        "outpatient_visits": 19,
+        "followup_visits": 10,
+        "inpatient_visits": 2,
+        "mom_growth_pct": 11.76,
+        "rolling_3m_avg": 36.0
+      },
+      {
+        "year_month": "2026-04",
+        "total_visits": 40,
+        "unique_patients": 33,
+        "emergency_visits": 5,
+        "outpatient_visits": 17,
+        "followup_visits": 12,
+        "inpatient_visits": 6,
+        "mom_growth_pct": 5.26,
+        "rolling_3m_avg": 37.33
+      },
+      {
+        "year_month": "2026-05",
+        "total_visits": 42,
+        "unique_patients": 35,
+        "emergency_visits": 2,
+        "outpatient_visits": 26,
+        "followup_visits": 9,
+        "inpatient_visits": 5,
+        "mom_growth_pct": 5.0,
+        "rolling_3m_avg": 40.0
+      },
+      {
+        "year_month": "2026-06",
+        "total_visits": 41,
+        "unique_patients": 34,
+        "emergency_visits": 6,
+        "outpatient_visits": 24,
+        "followup_visits": 7,
+        "inpatient_visits": 4,
+        "mom_growth_pct": -2.38,
+        "rolling_3m_avg": 41.0
+      },
+      {
+        "year_month": "2026-07",
+        "total_visits": 48,
+        "unique_patients": 42,
+        "emergency_visits": 5,
+        "outpatient_visits": 23,
+        "followup_visits": 12,
+        "inpatient_visits": 8,
+        "mom_growth_pct": 17.07,
+        "rolling_3m_avg": 43.67
+      },
+      {
+        "year_month": "2026-08",
+        "total_visits": 52,
+        "unique_patients": 40,
+        "emergency_visits": 9,
+        "outpatient_visits": 26,
+        "followup_visits": 10,
+        "inpatient_visits": 7,
+        "mom_growth_pct": 8.33,
+        "rolling_3m_avg": 47.0
+      },
+      {
+        "year_month": "2026-09",
+        "total_visits": 47,
+        "unique_patients": 34,
+        "emergency_visits": 10,
+        "outpatient_visits": 24,
+        "followup_visits": 10,
+        "inpatient_visits": 3,
+        "mom_growth_pct": -9.62,
+        "rolling_3m_avg": 49.0
+      },
+      {
+        "year_month": "2026-10",
+        "total_visits": 42,
+        "unique_patients": 33,
+        "emergency_visits": 9,
+        "outpatient_visits": 18,
+        "followup_visits": 12,
+        "inpatient_visits": 3,
+        "mom_growth_pct": -10.64,
+        "rolling_3m_avg": 47.0
+      }
+    ],
+    "daily_statistics": {
+      "active_days_recorded": 220,
+      "mean_daily_visits": 1.91,
+      "median_daily_visits": 2.0,
+      "std_daily_visits": 1.09,
+      "min_daily_visits": 1,
+      "max_daily_visits": 6,
+      "p90_daily_visits": 3.0,
+      "iqr_daily_visits": 1.0,
+      "peak_visit_date": "2026-06-20",
+      "peak_visit_count": 6
+    },
+    "day_of_week_summary": [
+      {
+        "day_of_week": "Monday",
+        "visit_count": 55,
+        "share_pct": 13.1
+      },
+      {
+        "day_of_week": "Tuesday",
+        "visit_count": 60,
+        "share_pct": 14.29
+      },
+      {
+        "day_of_week": "Wednesday",
+        "visit_count": 53,
+        "share_pct": 12.62
+      },
+      {
+        "day_of_week": "Thursday",
+        "visit_count": 59,
+        "share_pct": 14.05
+      },
+      {
+        "day_of_week": "Friday",
+        "visit_count": 57,
+        "share_pct": 13.57
+      },
+      {
+        "day_of_week": "Saturday",
+        "visit_count": 67,
+        "share_pct": 15.95
+      },
+      {
+        "day_of_week": "Sunday",
+        "visit_count": 69,
+        "share_pct": 16.43
+      }
+    ],
+    "visit_type_summary": [
+      {
+        "visit_type": "Outpatient",
+        "visit_count": 206,
+        "share_pct": 49.05
+      },
+      {
+        "visit_type": "Follow-up",
+        "visit_count": 97,
+        "share_pct": 23.1
+      },
+      {
+        "visit_type": "Emergency",
+        "visit_count": 71,
+        "share_pct": 16.9
+      },
+      {
+        "visit_type": "Inpatient",
+        "visit_count": 46,
+        "share_pct": 10.95
+      }
+    ]
+  },
+  "age_bands": {
+    "disclaimer": "OPERATIONAL STATISTICS ONLY: All records are 100% synthetic/de-identified. Outputs represent educational hospital operational analytics and must NOT be interpreted as clinical advice, medical diagnosis, or treatment recommendations.",
+    "total_registered_patients": 120,
+    "total_visits_analyzed": 420,
+    "age_band_summary": [
+      {
+        "age_band": "0-17",
+        "registered_patients": 18,
+        "active_patients_in_period": 17,
+        "total_visits": 67,
+        "visit_share_pct": 15.95,
+        "mean_visits_per_active_patient": 3.94,
+        "primary_department": "Pediatrics",
+        "primary_department_visits": 41
+      },
+      {
+        "age_band": "18-34",
+        "registered_patients": 32,
+        "active_patients_in_period": 31,
+        "total_visits": 124,
+        "visit_share_pct": 29.52,
+        "mean_visits_per_active_patient": 4.0,
+        "primary_department": "General Medicine",
+        "primary_department_visits": 42
+      },
+      {
+        "age_band": "35-49",
+        "registered_patients": 30,
+        "active_patients_in_period": 29,
+        "total_visits": 101,
+        "visit_share_pct": 24.05,
+        "mean_visits_per_active_patient": 3.48,
+        "primary_department": "General Medicine",
+        "primary_department_visits": 46
+      },
+      {
+        "age_band": "50-64",
+        "registered_patients": 17,
+        "active_patients_in_period": 17,
+        "total_visits": 52,
+        "visit_share_pct": 12.38,
+        "mean_visits_per_active_patient": 3.06,
+        "primary_department": "Cardiology",
+        "primary_department_visits": 16
+      },
+      {
+        "age_band": "65+",
+        "registered_patients": 23,
+        "active_patients_in_period": 22,
+        "total_visits": 76,
+        "visit_share_pct": 18.1,
+        "mean_visits_per_active_patient": 3.45,
+        "primary_department": "General Medicine",
+        "primary_department_visits": 20
+      }
+    ],
+    "age_department_matrix": [
+      {
+        "age_band": "0-17",
+        "Cardiology": 0,
+        "Dermatology": 5,
+        "Emergency & Trauma": 11,
+        "General Medicine": 8,
+        "Neurology": 0,
+        "Orthopedics": 2,
+        "Pediatrics": 41,
+        "row_total": 67
+      },
+      {
+        "age_band": "18-34",
+        "Cardiology": 25,
+        "Dermatology": 10,
+        "Emergency & Trauma": 20,
+        "General Medicine": 42,
+        "Neurology": 9,
+        "Orthopedics": 18,
+        "Pediatrics": 0,
+        "row_total": 124
+      },
+      {
+        "age_band": "35-49",
+        "Cardiology": 9,
+        "Dermatology": 4,
+        "Emergency & Trauma": 19,
+        "General Medicine": 46,
+        "Neurology": 6,
+        "Orthopedics": 17,
+        "Pediatrics": 0,
+        "row_total": 101
+      },
+      {
+        "age_band": "50-64",
+        "Cardiology": 16,
+        "Dermatology": 2,
+        "Emergency & Trauma": 8,
+        "General Medicine": 11,
+        "Neurology": 4,
+        "Orthopedics": 11,
+        "Pediatrics": 0,
+        "row_total": 52
+      },
+      {
+        "age_band": "65+",
+        "Cardiology": 12,
+        "Dermatology": 4,
+        "Emergency & Trauma": 13,
+        "General Medicine": 20,
+        "Neurology": 12,
+        "Orthopedics": 15,
+        "Pediatrics": 0,
+        "row_total": 76
+      }
+    ]
+  }
+}
